@@ -1,0 +1,217 @@
+
+.slider {
+	position: relative;
+	overflow: hidden;
+} 
+
+@keyframes slider {
+	from {
+		top: 0;
+		left: 5;
+	}
+	25% {
+		transform: translate(0px, 0px);
+	}
+	50% {
+		transform: translate(-500px, 0);	
+	}
+	75% {
+		transform: translate(500px, 0);
+		z-index: -1;
+	}
+
+	to {
+		transform: (0px, 0px);
+		z-index: 1;
+	}
+}
+
+
+.sli {
+	position: absolute;
+	top: 0;
+	left: 5;
+	animation-name: slid;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+.sli3 { 
+	animation-delay: 6s;
+}
+.sli4 { 
+	animation-delay: 3s;
+}
+
+.arrow{
+	right:13%;
+	top: 35%;
+	position:absolute;
+}
+
+
+@keyframes slid {
+	from {
+		top: 0;
+		left: 5;
+	}
+	16.6% {
+		transform: translate(0px, 0px);
+	}
+	33.33% {
+		transform: translate(-800px, 0);
+	}
+	40% {
+		transform: translate(-800px, 300px);
+	}
+	60% {
+		transform: translate(800px, 300px);
+	}
+	83.33% {
+		transform: translate(1000px, 0);
+		
+	}
+	to {
+		transform: (0px, 0px);
+		
+	}
+}
+@media (max-width: 767px){
+ block-form-title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: initial;
+}
+}
+block-views-block-testimonials-block-1 .view-content:before {
+    content: "";
+    display: block;
+    background: #fff;
+    opacity: .5;
+    border: 1px solid rgba(0,0,0,.1);
+    box-sizing: border-box;
+    box-shadow: 0 4px 60px rgb(162 162 162 / 25%);
+    border-radius: 5px;
+    position: absolute;
+    top: -40px;
+    bottom: 0;
+    left: 64px;
+    right: 64px;
+    z-index: 5;
+}
+block-views-block-testimonials-block-1 .view-content {
+    margin-top: 48px;
+}
+ock-views-block-testimonials-block-1 {
+    margin-bottom: 160px;
+    font-family: Montserrat;
+    font-style: normal;
+    background: url(/themes/custom/bootstrap_dc/css/../images/right-quote-sign.svg) no-repeat left top;
+    background-size: 26%;
+    padding-top: 90px;
+}
+lick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+lick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+lock-views-block-testimonials-block-1 {
+    margin-bottom: 160px;
+    font-family: Montserrat;
+    font-style: normal;
+    background: url(/themes/custom/bootstrap_dc/css/../images/right-quote-sign.svg) no-repeat left top;
+    background-size: 26%;
+    padding-top: 90px;
+}
+lick-track:before, .slick-track:after {
+    display: table;
+    content: '';
+}
+.blazy *::after {
+    box-sizing: border-box;
+}
+lick-track:after {
+    clear: both;
+}
+lock-views-block-testimonials-block-1 {
+    margin-bottom: 160px;
+    font-family: Montserrat;
+    font-style: normal;
+    background: url(/themes/custom/bootstrap_dc/css/../images/right-quote-sign.svg) no-repeat left top;
+    background-size: 26%;
+    padding-top: 90px;
+}
+dy {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+lock-views-block-testimonials-block-1 .views-field-field-report-text {
+    margin-bottom: 28px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #050c33;
+    outline: 0;
+}
+ick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+lock-views-block-testimonials-block-1 {
+    margin-bottom: 160px;
+    font-family: Montserrat;
+    font-style: normal;
+    background: url(/themes/custom/bootstrap_dc/css/../images/right-quote-sign.svg) no-repeat left top;
+    background-size: 26%;
+    padding-top: 90px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+#block-views-block-testimonials-block-1 .views-field-field-report-author a {
+    text-decoration: underline;
+    color: #050c33;
+    outline: 0;
+    font-weight: normal;
+}
+element.style {
+    width: 600px;
+    position: relative;
+    left: -2400px;
+    top: 0px;
+    z-index: 999;
+    opacity: 1;
+}
